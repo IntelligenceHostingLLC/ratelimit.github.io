@@ -8,7 +8,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['Api:', 'Attack_Analyze', 'Proxy_Detect', 'Openvpn_ConnectedUsers', 'veracrpyt', 'IP_Lookup', 'Translate', 'Advanced Checks', 'Ratelimit API'];
+  brandDescription = ['Api:', 'Attack_Analyze', 'Proxy_Detect', 'Openvpn_ConnectedUsers', 'veracrpyt', 'IP_Lookup', 'Translate', 'Advanced Checks', 'Unlimted requests free', 'Privacy will give as little info as possible','Ratelimit API'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
