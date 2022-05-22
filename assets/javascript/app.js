@@ -8,7 +8,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['DDos Notifications:', 'IP', 'Location', 'Cpu', 'Uptime', 'Packet Count', 'Incident ID', 'Attack Types', 'attacked src port', 'attacked dst port', 'users online', 'Number Of users online', 'spoofing', 'Ratelimit.club - DDos Notifications'];
+  brandDescription = ['Api:', 'Attack_Analyze', 'Proxy_Detect', 'Openvpn_ConnectedUsers', 'veracrpyt', 'IP_Lookup', 'Translate', 'Advanced Checks', 'Ratelimit API'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
