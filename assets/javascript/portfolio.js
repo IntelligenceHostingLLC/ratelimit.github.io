@@ -1,7 +1,7 @@
 
 'use strict';
 
-const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=1785ed53312f42c7b5ef89f65c3faa1a';
+const ipgeolocation = 'https://api.ratelimit.club/ipdata?&key=Free';
 
 const timeouts = [];
 
@@ -132,7 +132,7 @@ $.getJSON(ipgeolocation, (data) => {
     const usernames = ['user', 'dude'];
 
     const ip = data.ip ? data.ip : usernames[Math.floor(Math.random() * usernames.length)];
-    const country = data.country_name ? data.country_name : 'your country';
+    const country = data.Country? data.Country : 'your country';
 
     writeLine([`Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>`, `Welcome back, <i style='color: #0f0'>${ip}</i>! By the way, nice to see someone from ${country} here!`], 30, 500, () => {
       if (app.skippedIntro) return;
