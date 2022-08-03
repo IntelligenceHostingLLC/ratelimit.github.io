@@ -1,7 +1,7 @@
 
 'use strict';
 
-const ipgeolocation = 'https://api.ratelimit.club/ipdata?&key=Free';
+const ipgeolocation = 'https://api.ip.sb/geoip?callback=getgeoip';
 
 const timeouts = [];
 
